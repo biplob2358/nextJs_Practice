@@ -13,7 +13,11 @@ function Documet() {
 
     if (params.length == 1) {
         return (
-            <h2>This page for {params[0]} </h2>
+            <div>
+                <h2>This page for {params[0]} </h2>
+                <h2>This page for {params[0]} </h2>
+
+            </div>
         )
     }
     return (
